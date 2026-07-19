@@ -1,0 +1,11 @@
+bin/
+obj/
+dist/
+.vs/
+*.user
+*.suo
+*.log
+MelonLoader/
+EsportsManager_Data/
+GameAssembly.dll
+UnityCrashHandler64.exe
