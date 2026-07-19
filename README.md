@@ -10,25 +10,21 @@ Repository นี้ใช้สำหรับแจกไฟล์พร้อ
 
 ## ดาวน์โหลดพร้อมเล่น
 
-ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.1.zip` จากหน้า
-[Releases](../../releases/latest) แล้วแตกไฟล์ลงในโฟลเดอร์เกม เช่น:
+ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.1-Full.zip` จากหน้า
+[Releases](../../releases/latest) แพ็กนี้รวม **MelonLoader v0.7.3 x64** จาก
+[LavaGang](https://github.com/LavaGang/MelonLoader) ไว้แล้ว ไม่ต้องไปดาวน์โหลดอะไรเพิ่มเอง
 
-```text
-E:\SteamLibrary\steamapps\common\Esports Manager 2026
-```
+วิธีติดตั้ง:
 
-หลังแตกไฟล์ควรได้โครงสร้างนี้:
+1. ปิดเกม Esports Manager 2026
+2. แตก ZIP ออกมาไว้ที่ใดก็ได้
+3. ดับเบิลคลิก `Install-ThaiMod.cmd`
+4. ตัวติดตั้งจะหา Steam Library และลง MelonLoader กับมอดไทยให้อัตโนมัติ
+5. เปิดเกมผ่าน Steam ตามปกติ
 
-```text
-Esports Manager 2026/
-└─ Mods/
-   ├─ EsportsManager2026.Thai.dll
-   └─ EsportsManager2026.Thai/
-      └─ th.json
-```
-
-ต้องติดตั้ง **MelonLoader 0.7.x (x64)** และเปิดเกมอย่างน้อยหนึ่งครั้งก่อนใช้งาน
-จากนั้นเปิดเกมตามปกติ มอดจะใช้ช่อง `sv-SE` ภายในและแสดงชื่อภาษาเป็น `ไทย`
+หากหาเกมไม่พบ ตัวติดตั้งจะให้เลือกโฟลเดอร์ที่มี `EsportsManager.exe` การเปิดเกม
+ครั้งแรกอาจใช้เวลาหลายนาที และ MelonLoader อาจดาวน์โหลด dependency ที่จำเป็น
+โดยอัตโนมัติ เพียงเชื่อมต่ออินเทอร์เน็ตไว้ ไม่ต้องติดตั้งด้วยตนเอง
 
 ## ขอบเขตคำแปล
 
@@ -51,14 +47,22 @@ Mods/EsportsManager2026.Thai.dll
 Mods/EsportsManager2026.Thai/
 ```
 
-หรือใช้ `scripts/uninstall_release.ps1` โดยระบุ `-GameDir` หากเกมไม่ได้ติดตั้งที่ค่าเริ่มต้น
+หากต้องการถอน MelonLoader ด้วย และไม่มีมอดอื่นใช้งาน ให้ลบ `version.dll` กับโฟลเดอร์
+`MelonLoader/` เพิ่มเติม
 
 ## แก้ปัญหาเบื้องต้น
 
 - ตรวจว่าเกมปิดอยู่ระหว่างติดตั้งหรืออัปเดตมอด
-- ตรวจว่า MelonLoader สร้างโฟลเดอร์ `MelonLoader/Il2CppAssemblies` แล้ว
+- แตก ZIP ออกมาก่อน ห้ามเปิดตัวติดตั้งจากภายใน ZIP โดยตรง
+- ครั้งแรกให้รอจน MelonLoader สร้างโฟลเดอร์ `MelonLoader/Il2CppAssemblies` เสร็จ
 - Log อยู่ที่ `MelonLoader/Latest.log`
 - หากเกมอัปเดตแล้วข้อความใหม่ไม่เป็นไทย กรุณาเปิด Issue พร้อมภาพและข้อความจาก log
+
+## ซอฟต์แวร์ที่รวมมา
+
+แพ็กนี้ใช้ไฟล์ทางการ `MelonLoader.x64.zip` รุ่น v0.7.3 โดยไม่ดัดแปลง และตรวจสอบ
+SHA-256 ตรงกับ release ของผู้พัฒนา MelonLoader เผยแพร่ภายใต้ Apache License 2.0;
+license, notice และ third-party credits ต้นฉบับรวมอยู่ในแพ็กครบถ้วน
 
 ## ข้อสงวนสิทธิ์
 
