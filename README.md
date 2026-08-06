@@ -5,12 +5,12 @@ MelonLoader โดยไม่แก้ไข asset ต้นฉบับขอ�
 
 Repository นี้ใช้สำหรับแจกไฟล์พร้อมเล่นเท่านั้น และไม่มี source code ของมอด
 
-> เวอร์ชันล่าสุด: **v1.0.2**
-> ทดสอบกับเกม Steam build `24226509`, Unity `6000.3.12f1` และ MelonLoader `0.7.3`
+> เวอร์ชันล่าสุด: **v1.0.3**
+> ทดสอบกับเกม Steam build `24539449`, Unity `6000.3.12f1` และ MelonLoader `0.7.3`
 
 ## ดาวน์โหลดพร้อมเล่น
 
-ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.2-Full.zip` จากหน้า
+ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.3-Full.zip` จากหน้า
 [Releases](../../releases/latest) แพ็กนี้รวม **MelonLoader v0.7.3 x64** จาก
 [LavaGang](https://github.com/LavaGang/MelonLoader) ไว้แล้ว ไม่ต้องไปดาวน์โหลดอะไรเพิ่มเอง
 
@@ -29,11 +29,12 @@ Repository นี้ใช้สำหรับแจกไฟล์พร้อ
 ## ขอบเขตคำแปล
 
 - Unity String Tables 4,827 รายการ
-- อีเมลและข้อความจำลอง 1,330 รายการ
+- อีเมลและข้อความจำลอง 1,507 รายการ
 - บทสนทนา 1,144 รายการ
 - Loading tips ครบ 100 ประโยค
 - รองรับ SmartFormat, placeholder, rich text และ gender token
 - ฟอนต์ไทย TextMeshPro พร้อมชื่อวันและเดือนภาษาไทย
+- รองรับแพตช์เกม Steam build `24539449` และข้อความ UI ที่เพิ่มในแพตช์
 
 ชื่อทีม ผู้เล่น แบรนด์ รายการแข่งขัน และศัพท์สั้นบางรายการ เช่น `STAGE 2/3`
 คงรูปเดิมโดยเจตนา
