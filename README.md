@@ -5,12 +5,12 @@ MelonLoader โดยไม่แก้ไข asset ต้นฉบับขอ�
 
 Repository นี้ใช้สำหรับแจกไฟล์พร้อมเล่นเท่านั้น และไม่มี source code ของมอด
 
-> เวอร์ชันล่าสุด: **v1.0.6**
+> เวอร์ชันล่าสุด: **v1.0.7**
 > ทดสอบกับเกม Steam build `25009542`, Unity `6000.5.10f1` และ MelonLoader `0.7.3`
 
 ## ดาวน์โหลดพร้อมเล่น
 
-ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.6-Full.zip` จากหน้า
+ดาวน์โหลดไฟล์ `EsportsManager2026.Thai-v1.0.7-Full.zip` จากหน้า
 [Releases](../../releases/latest) แพ็กนี้รวม **MelonLoader v0.7.3 x64** จาก
 [LavaGang](https://github.com/LavaGang/MelonLoader) ไว้แล้ว ไม่ต้องไปดาวน์โหลดอะไรเพิ่มเอง
 
